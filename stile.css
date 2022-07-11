@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+}
+img.logoRicerca {
+    text-align: left;
+    height: 40px;
+    width: 135px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+img.carrello{
+    float: left;
+    height: 40px;
+    width: 44px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: none;
+    
+}
+
+
+div.barraSuperiore{ 
+    position:relative;
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+}
+.cont{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+
+}
+
+p.gitHub{
+    margin: 7px;
+    color: white;
+}
+
+
+
+textarea.barraRicera{  
+    border: 0px;
+    height: 31px;
+    width: 1000px;
+    resize: none;
+    float: left;
+    font-size: 25px;
+    font-family: monospace monaco;
+}
+button.inviaRicerca{ 
+    height: 35px;
+    border: 0px;
+    width: 35px;
+    border-radius: 0px 10px 10px 0px;
+    float: left;
+    background-image: url("img/lente.png");
+}
+button.bottoneStandard{
+    height: 35px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    float:left;
+    margin-left: 10px;
+}
+img.logoLogIn{
+    text-align: center;
+    height: 40px;
+    width: 135px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+form.logIn{
+    position:relative;
+    margin: auto;
+    border-color: green;
+    border: 1px solid;
+    height: 200px;
+    width: 325px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+
+}
+div.giaLogIn{
+    position: absolute;
+    margin: 5px;
+    top: 100%;
+    transform: translateY(-140%);
+}
+div.textLogIn{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    font-weight: bold;
+    font-family: monospace monaco;
+}
+input.inputLogIn{
+    width: 250px;
+}
+form.signUp{
+    position: relative;
+    margin: auto;
+    border-color: green;
+    border: 1px solid;
+    height: 340px;
+    width: 325px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+
+}
+div.gia{
+    text-align: left;
+    display: block;
+    padding: 5px;
+    margin-top: 5%;
+
+}
+div.prodotto{
+    border: 1px solid;
+    height: 262px;
+    width: 160px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background-color: lightcyan;
+    margin: 40px;
+    float: left;
+}
+button.bottoneStandardCentro{
+    height: 35px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 10px;
+}
+img.imgProdotto{
+    height:150px;
+    width:150px;
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+p.nomeProdotto{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 0px;
+}
+p.descrizioneProdotto{
+    text-align: left;
+    font-size: 14px;
+    margin: 8px;
+}
+p.prezzoProdotto{
+    text-align: left;
+    font-size: 16px;
+    margin: 4px;
+    float: left;
+}
+button.addCart{
+    margin-right: 4px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid;
+}
+div.bannerErrore{
+    background-color: red;
+    display:none;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+div.bannerNotifica{  
+    background-color: rgba(104,255,104,1.00);
+    display: none;
+    height: 40px;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+div.infoUser{
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+    margin-right: 20px;
+    
+}
+
+div.sezioneCarrello{
+    margin-top: 20px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 600px;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+img.immagineCarrello{
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button.bottoneCarrello{
+    height: 60px;
+    width: 60px;
+    border: 3px solid;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+    float: left;
+}
+div.containerCarrello{
+    border-right: 0;
+    margin: 0;
+    width: 33%;
+    height: 800px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    float: left;
+}
+div.carrello{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+div.containerBottoniCarrello{
+    position: absolute;
+    left: 73%;
+}
+img.backRow{
+    height: 40px;
+    width: 40px;
+    float:left;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+div.destraBottoneCarrello{
+    position: absolute;
+    left: 92%;
+}
+p.dataAcquisti{
+   margin:0px;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 80%;
+   font-weight: bold;
+}
+div.containerCarrelloCentrale{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin: 0;
+    width: 33%;
+    height: 800px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    float: left;
+}
+button.categorie{
+    background-color: black;
+    color: white;
+    text-align: left;
+    width: 150px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+p.didascaliaRiservata{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.containerQuery{
+    border: 1px solid;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    height: 500px;
+    width: 49%;
+    float: left;
+    position: relative;
+}
+h1.testoQuery{
+    margin:0;
+    text-align: center;
+}
+div.sezioneQuery{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+}
+p.ambitoQuery{
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+div.query{
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    height: 60px;
+    width: 530px;
+    margin: 0px;
+    position: relative;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+input.formQueryID{
+    height: 20px;
+    width: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+}
+input.formQueryNumero{
+    height: 20px;
+    width: 60px; 
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+}
+button.bottoneQuery{
+    height: 26px;
+    width: 100px;
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+}
+div.centraTutto{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
